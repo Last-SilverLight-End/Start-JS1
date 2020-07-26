@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 #grid{
   border:5px solid pink;
   display:grid;
@@ -6,4 +6,29 @@
 }
 div{
   border:5px solid gray;
+}
+.firstClass{
+  text-align :center; text-decoration-color: aqua; font-style: italic ;
+}
+.WholeDate{
+  /*border: 5px solid pink;
+  display: initial;
+  padding : 10px;
+  border-collapse: separate;*/
+  margin:auto;
+  text-align: center;
+  font-size : 40px;
+  background-color: lightpink;
+  font-family: 'Nanum Gothic', sans-serif;
+  border-collapse: collapse;
+
+  /*border-spacing: 3px;*/
+}
+
+td {
+  font-size: 40px;
+  background-color: pink;
+  padding : 10px;
+  border : 2px solid white;
+
 }
