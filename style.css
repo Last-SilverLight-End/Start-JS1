@@ -21,27 +21,35 @@ div{
   background-color: lightpink;
   font-family: 'Nanum Gothic', sans-serif;
   border-collapse: collapse;
+  border-radius: 8px;
 
   /*border-spacing: 3px;*/
 }
+
+.ToMonth2 td{
+  font-size: 40px;
+  background-color: salmon;
+  padding : 10px;
+  border : 2px solid white;
+  text-align : center;
+  border-radius: 8px;
+}
+
 .Special td{
   font-size: 40px;
   background-color: greenyellow;
   padding : 10px;
   border : 2px solid white;
+  text-align: center;
+
 
 }
-.ToMonth td{
-  font-size: 40px;
-  background-color: salmon;
-  padding : 10px;
-  border : 2px solid white;
 
-}
 td {
   font-size: 40px;
   background-color: pink;
   padding : 10px;
   border : 2px solid white;
+  text-align: center;
 
 }
