@@ -24,7 +24,13 @@ div{
 
   /*border-spacing: 3px;*/
 }
+.Special td{
+  font-size: 40px;
+  background-color: greenyellow;
+  padding : 10px;
+  border : 2px solid white;
 
+}
 td {
   font-size: 40px;
   background-color: pink;
