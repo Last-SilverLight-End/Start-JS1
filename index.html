@@ -9,15 +9,12 @@
   </head>
   <body>
     <h1 class="firstClass" >창그니의 달력 만들기</h1>
-    <table class ='WholeDate'>
-        <form>
-          <input type="month" id='CurrnetMonth'>
-        </form>
+    <table id ="WholeCalendar">
       <thead>
       <tr class ="ToMonth2">
         <td><label onclick="prevCal()"> <- </label></td> 
-        <td id="ToMonth" colspan="5"> m월 </td>
-        <td><labe onclick ="nextCal()">-></labe></td>
+        <td id="tbCalendarYM" colspan="5"> YYYY년 M월 </td>
+        <td><label onclick ="nextCal()">-></label></td>
 
       </tr>
       <tr class='Special'>

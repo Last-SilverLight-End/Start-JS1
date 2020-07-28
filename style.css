@@ -10,7 +10,7 @@ div{
 .firstClass{
   text-align :center; text-decoration-color: aqua; font-style: italic ;
 }
-.WholeDate{
+#WholeCalendar{
   /*border: 5px solid pink;
   display: initial;
   padding : 10px;
@@ -45,11 +45,11 @@ div{
 
 }
 
-td {
+/*td {
   font-size: 40px;
   background-color: pink;
   padding : 10px;
   border : 2px solid white;
   text-align: center;
 
-}
+}*/
