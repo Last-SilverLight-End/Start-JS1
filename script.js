@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded',buildCal);
 
 let today = new Date();
 let date = new Date();
-
+let day = new Date();
 
 function prevCal(){
     today = new Date(today.getFullYear(),today.getMonth()-1,today.getDate());
