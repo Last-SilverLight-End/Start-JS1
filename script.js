@@ -25,6 +25,7 @@ function buildCal(){
     tbCalendarYM.innerHTML=today.getFullYear()+"년"+(today.getMonth()+1) +"월";
     while(tbCal.rows.length>2){
         tbCal.deleteRow(tbCal.rows.length-1);
+        
     }
     let row=null;
 
