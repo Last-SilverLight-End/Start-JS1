@@ -21,12 +21,38 @@ function buildCal(){
     let tbCal = document.getElementById("WholeCalendar");
     let tbCalendarYM = document.getElementById("tbCalendarYM");
 
-    tbCalendarYM.textcontent=today.getFullYear()+"년"+(today.getMonth()+1) +"월";
+   // tbCalendarYM.textcontent=today.getFullYear()+"년"+(today.getMonth()+1) +"월";
     tbCalendarYM.innerHTML=today.getFullYear()+"년"+(today.getMonth()+1) +"월";
-    
-    console.log(tbCalendarYM);
+    while(tbCal.rows.length>2){
+        tbCal.deleteRow(tbCal.rows.length-1);
+    }
+    let row=null;
 
+    row=tbCal.insertRow();
+    let cnt=0;
+    for(i=0; i<doMonth.getDay(); i++)
+    {
+        cell=row.insertCell();
+        
+        cnt=cnt+1;
+    }
+    for(i=1; i<=lastDate.getDate(); i++){
+        cell=row.insertCell();
+        cell.innerHTML=i;
+        cnt=cnt+1;
+
+        if(cnt%7==1){
+            cell.innerHTML=i;
+        }
+        if(cnt%7==0){
+            cell.innerHTML=i;
+            row=WholeCalendar.insertRow();
+        }
+       
+    }
+   // console.log(tbCalendarYM);
 }
+
 
 
 
