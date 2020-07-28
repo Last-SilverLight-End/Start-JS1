@@ -9,7 +9,7 @@ function prevCal(){
     today = new Date(today.getFullYear(),today.getMonth()-1,today.getDate());
     buildCal();
 }
-
+ // 반쯤 구글링 
 function nextCal(){
     today =  new Date(today.getFullYear(),today.getMonth()+1,today.getDate());
     buildCal();
@@ -25,7 +25,6 @@ function buildCal(){
     tbCalendarYM.innerHTML=today.getFullYear()+"년"+(today.getMonth()+1) +"월";
     while(tbCal.rows.length>2){
         tbCal.deleteRow(tbCal.rows.length-1);
-        
     }
     let row=null;
 
