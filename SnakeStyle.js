@@ -37,6 +37,11 @@ console.log(jool[1].children[4]);
 jool[10].children[10].classList.add('snake-head');
 jool[10].children[9].classList.add('snake-head');
 
+function RandNum(){
+
+}
+
 setInterval(function(){
+    
 
 },300);
