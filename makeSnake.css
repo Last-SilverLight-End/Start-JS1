@@ -1,0 +1,38 @@
+
+
+body{
+
+}
+
+h1{
+    margin: 0;
+}
+
+article{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+article a{
+    font-size: 40px;
+}
+
+table{
+    margin : 0;
+    border-color: khaki;
+    border-style: solid;
+    background-color: lavender;
+    border-width: 1px;
+    text-align: center;
+}
+
+td{
+	width : 30px;
+	height : 30px;
+	background-color: lightgrey;
+}
+
+.snake-head{
+    background-color: black;
+}
